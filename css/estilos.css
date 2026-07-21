@@ -460,3 +460,34 @@ button:focus-visible {
         transition: none !important;
     }
 }
+.indicadores{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.indicador{
+    background:#fff;
+    border:2px solid #d8d8d8;
+    border-radius:12px;
+    padding:25px;
+    text-align:center;
+    transition:.3s;
+}
+
+.indicador:hover{
+    transform:translateY(-5px);
+    border-color:#2f6f3e;
+}
+
+.indicador h3{
+    font-size:2.3rem;
+    color:#2f6f3e;
+    margin-bottom:10px;
+}
+
+.indicador p{
+    color:#555;
+    margin:0;
+}
