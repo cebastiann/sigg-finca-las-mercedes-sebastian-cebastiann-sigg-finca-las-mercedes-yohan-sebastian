@@ -24,7 +24,7 @@ En desarrollo.
 ## Instalación
 ```bash
 # Clonar el repositorio
-git clone https://github.com/Ing-ZulmaSalas/sigg-finca-las-mercedes.git
+git clone https://github.com/cebastiann/sigg-finca-las-mercedes-sebastian-cebastiann-sigg-finca-las-mercedes-yohan-sebastian.git
 
 # Entrar al directorio
 cd sigg-finca-las-mercedes
