@@ -491,3 +491,37 @@ button:focus-visible {
     color:#555;
     margin:0;
 }
+/*==========================
+    BENEFICIOS
+===========================*/
+
+.beneficios{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.beneficio{
+    background:#ffffff;
+    border:1px solid #d9d9d9;
+    border-radius:12px;
+    padding:30px;
+    transition:.3s;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+
+.beneficio:hover{
+    transform:translateY(-8px);
+    border-color:#2E7D32;
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+
+.beneficio h3{
+    margin-bottom:15px;
+    color:#2E7D32;
+}
+
+.beneficio p{
+    line-height:1.7;
+}
